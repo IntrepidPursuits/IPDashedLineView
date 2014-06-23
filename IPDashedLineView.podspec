@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "IPDashedLineView"
-  s.version      = "1.0"
+  s.version      = "1.0.0"
   s.summary      = "Simple dashed lines."
   s.homepage     = "https://github.com/IntrepidPursuits/IPDashedLineView"
   s.license      = {
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.author       = { "Colin Brash" => "colin3@intrepid.io" }
   s.source       = {
     :git => "https://github.com/IntrepidPursuits/IPDashedLineView.git",
-    :tag => "1.0"
+    :tag => "1.0.0"
   }
   s.platform     = :ios, '6.1'
   s.source_files = 'IPDashedLineView.{h,m}'
