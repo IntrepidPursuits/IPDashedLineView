@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4983FDE81958AA4A00247750 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4983FDE71958AA4A00247750 /* Images.xcassets */; };
+		49F32A28193913B6007B882F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F32A27193913B6007B882F /* Foundation.framework */; };
+		49F32A2A193913B6007B882F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F32A29193913B6007B882F /* CoreGraphics.framework */; };
+		49F32A2C193913B6007B882F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F32A2B193913B6007B882F /* UIKit.framework */; };
+		49F32A34193913B6007B882F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F32A33193913B6007B882F /* main.m */; };
+		49F32A38193913B6007B882F /* IPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F32A37193913B6007B882F /* IPAppDelegate.m */; };
+		49F32A41193913B6007B882F /* IPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F32A40193913B6007B882F /* IPViewController.m */; };
+		49F32A61193913CE007B882F /* IPDashedLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F32A60193913CE007B882F /* IPDashedLineView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4983FDE71958AA4A00247750 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		49F32A24193913B6007B882F /* IPDashedLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPDashedLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F32A27193913B6007B882F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49F32A29193913B6007B882F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49F32A2B193913B6007B882F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49F32A2F193913B6007B882F /* IPDashedLine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IPDashedLine-Info.plist"; sourceTree = "<group>"; };
+		49F32A33193913B6007B882F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49F32A35193913B6007B882F /* IPDashedLine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IPDashedLine-Prefix.pch"; sourceTree = "<group>"; };
+		49F32A36193913B6007B882F /* IPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPAppDelegate.h; sourceTree = "<group>"; };
+		49F32A37193913B6007B882F /* IPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPAppDelegate.m; sourceTree = "<group>"; };
+		49F32A3F193913B6007B882F /* IPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPViewController.h; sourceTree = "<group>"; };
+		49F32A40193913B6007B882F /* IPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPViewController.m; sourceTree = "<group>"; };
+		49F32A5F193913CE007B882F /* IPDashedLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IPDashedLineView.h; path = ../IPDashedLineView.h; sourceTree = "<group>"; };
+		49F32A60193913CE007B882F /* IPDashedLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IPDashedLineView.m; path = ../IPDashedLineView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49F32A21193913B6007B882F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F32A2A193913B6007B882F /* CoreGraphics.framework in Frameworks */,
+				49F32A2C193913B6007B882F /* UIKit.framework in Frameworks */,
+				49F32A28193913B6007B882F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49F32A1B193913B6007B882F = {
+			isa = PBXGroup;
+			children = (
+				49F32A2D193913B6007B882F /* IPDashedLine */,
+				49F32A26193913B6007B882F /* Frameworks */,
+				49F32A25193913B6007B882F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49F32A25193913B6007B882F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49F32A24193913B6007B882F /* IPDashedLine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49F32A26193913B6007B882F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49F32A27193913B6007B882F /* Foundation.framework */,
+				49F32A29193913B6007B882F /* CoreGraphics.framework */,
+				49F32A2B193913B6007B882F /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49F32A2D193913B6007B882F /* IPDashedLine */ = {
+			isa = PBXGroup;
+			children = (
+				49F32A5F193913CE007B882F /* IPDashedLineView.h */,
+				49F32A60193913CE007B882F /* IPDashedLineView.m */,
+				49F32A36193913B6007B882F /* IPAppDelegate.h */,
+				49F32A37193913B6007B882F /* IPAppDelegate.m */,
+				49F32A3F193913B6007B882F /* IPViewController.h */,
+				49F32A40193913B6007B882F /* IPViewController.m */,
+				4983FDE71958AA4A00247750 /* Images.xcassets */,
+				49F32A2E193913B6007B882F /* Supporting Files */,
+			);
+			name = IPDashedLine;
+			sourceTree = "<group>";
+		};
+		49F32A2E193913B6007B882F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49F32A2F193913B6007B882F /* IPDashedLine-Info.plist */,
+				49F32A33193913B6007B882F /* main.m */,
+				49F32A35193913B6007B882F /* IPDashedLine-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49F32A23193913B6007B882F /* IPDashedLine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F32A59193913B6007B882F /* Build configuration list for PBXNativeTarget "IPDashedLine" */;
+			buildPhases = (
+				49F32A20193913B6007B882F /* Sources */,
+				49F32A21193913B6007B882F /* Frameworks */,
+				49F32A22193913B6007B882F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPDashedLine;
+			productName = IPDashedLine;
+			productReference = 49F32A24193913B6007B882F /* IPDashedLine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49F32A1C193913B6007B882F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Intrepid Pursuits";
+			};
+			buildConfigurationList = 49F32A1F193913B6007B882F /* Build configuration list for PBXProject "IPDashedLine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49F32A1B193913B6007B882F;
+			productRefGroup = 49F32A25193913B6007B882F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49F32A23193913B6007B882F /* IPDashedLine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49F32A22193913B6007B882F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4983FDE81958AA4A00247750 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49F32A20193913B6007B882F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F32A34193913B6007B882F /* main.m in Sources */,
+				49F32A61193913CE007B882F /* IPDashedLineView.m in Sources */,
+				49F32A38193913B6007B882F /* IPAppDelegate.m in Sources */,
+				49F32A41193913B6007B882F /* IPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		49F32A57193913B6007B882F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49F32A58193913B6007B882F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49F32A5A193913B6007B882F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IPDashedLine-Prefix.pch";
+				INFOPLIST_FILE = "IPDashedLine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49F32A5B193913B6007B882F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IPDashedLine-Prefix.pch";
+				INFOPLIST_FILE = "IPDashedLine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49F32A1F193913B6007B882F /* Build configuration list for PBXProject "IPDashedLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F32A57193913B6007B882F /* Debug */,
+				49F32A58193913B6007B882F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F32A59193913B6007B882F /* Build configuration list for PBXNativeTarget "IPDashedLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F32A5A193913B6007B882F /* Debug */,
+				49F32A5B193913B6007B882F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49F32A1C193913B6007B882F /* Project object */;
+}

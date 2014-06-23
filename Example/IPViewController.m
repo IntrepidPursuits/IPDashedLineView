@@ -1,9 +1,23 @@
-# IPDashedLineView
+//
+//  IPViewController.m
+//  IPDashedLine
+//
+//  Created by Colin Brash on 5/30/14.
+//  Copyright (c) 2014 Intrepid Pursuits. All rights reserved.
+//
 
-IPDashedLineView provides a simple interface for creating dashed lines.  It can be instantiated in code with `-initWithFrame:` or in a nib.
+#import "IPViewController.h"
+#import "IPDashedLineView.h"
 
-## Example Usage
 
+@implementation IPViewController
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    
     // Forced Horizontal
     IPDashedLineView *dash1 = [[IPDashedLineView alloc] initWithFrame:CGRectMake(20, 60, 200, 1)];
     dash1.direction = IPDashedLineViewDirectionHorizontalFromRight;
@@ -37,5 +51,5 @@ IPDashedLineView provides a simple interface for creating dashed lines.  It can 
     dash5.lineColor = [UIColor purpleColor];
     dash5.direction = IPDashedLineViewDirectionVerticalFromTop;
     [self.view addSubview:dash5];
-
-![Screenshot](http://i.imgur.com/I1m7KUk.png?1)
+}
+@end
