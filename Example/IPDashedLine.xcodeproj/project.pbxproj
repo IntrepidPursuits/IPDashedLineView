@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4900EAD4195DF21E00D93D1A /* IPDashedBorderedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4900EAD3195DF21E00D93D1A /* IPDashedBorderedView.m */; };
+		4900EAD6195DF35F00D93D1A /* IPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4900EAD5195DF35F00D93D1A /* IPViewController.xib */; };
 		4983FDE81958AA4A00247750 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4983FDE71958AA4A00247750 /* Images.xcassets */; };
 		49F32A28193913B6007B882F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F32A27193913B6007B882F /* Foundation.framework */; };
 		49F32A2A193913B6007B882F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F32A29193913B6007B882F /* CoreGraphics.framework */; };
@@ -18,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4900EAD2195DF21E00D93D1A /* IPDashedBorderedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPDashedBorderedView.h; sourceTree = "<group>"; };
+		4900EAD3195DF21E00D93D1A /* IPDashedBorderedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPDashedBorderedView.m; sourceTree = "<group>"; };
+		4900EAD5195DF35F00D93D1A /* IPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IPViewController.xib; sourceTree = "<group>"; };
 		4983FDE71958AA4A00247750 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		49F32A24193913B6007B882F /* IPDashedLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPDashedLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F32A27193913B6007B882F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -30,8 +35,8 @@
 		49F32A37193913B6007B882F /* IPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPAppDelegate.m; sourceTree = "<group>"; };
 		49F32A3F193913B6007B882F /* IPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPViewController.h; sourceTree = "<group>"; };
 		49F32A40193913B6007B882F /* IPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPViewController.m; sourceTree = "<group>"; };
-		49F32A5F193913CE007B882F /* IPDashedLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IPDashedLineView.h; path = ../IPDashedLineView.h; sourceTree = "<group>"; };
-		49F32A60193913CE007B882F /* IPDashedLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IPDashedLineView.m; path = ../IPDashedLineView.m; sourceTree = "<group>"; };
+		49F32A5F193913CE007B882F /* IPDashedLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPDashedLineView.h; sourceTree = "<group>"; };
+		49F32A60193913CE007B882F /* IPDashedLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPDashedLineView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,10 +53,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4900EAD1195DF20C00D93D1A /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				49F32A5F193913CE007B882F /* IPDashedLineView.h */,
+				49F32A60193913CE007B882F /* IPDashedLineView.m */,
+				4900EAD2195DF21E00D93D1A /* IPDashedBorderedView.h */,
+				4900EAD3195DF21E00D93D1A /* IPDashedBorderedView.m */,
+			);
+			name = Code;
+			path = ../Code;
+			sourceTree = "<group>";
+		};
 		49F32A1B193913B6007B882F = {
 			isa = PBXGroup;
 			children = (
-				49F32A2D193913B6007B882F /* IPDashedLine */,
+				4900EAD1195DF20C00D93D1A /* Code */,
+				49F32A2D193913B6007B882F /* Example */,
 				49F32A26193913B6007B882F /* Frameworks */,
 				49F32A25193913B6007B882F /* Products */,
 			);
@@ -75,19 +93,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		49F32A2D193913B6007B882F /* IPDashedLine */ = {
+		49F32A2D193913B6007B882F /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				49F32A5F193913CE007B882F /* IPDashedLineView.h */,
-				49F32A60193913CE007B882F /* IPDashedLineView.m */,
 				49F32A36193913B6007B882F /* IPAppDelegate.h */,
 				49F32A37193913B6007B882F /* IPAppDelegate.m */,
 				49F32A3F193913B6007B882F /* IPViewController.h */,
 				49F32A40193913B6007B882F /* IPViewController.m */,
+				4900EAD5195DF35F00D93D1A /* IPViewController.xib */,
 				4983FDE71958AA4A00247750 /* Images.xcassets */,
 				49F32A2E193913B6007B882F /* Supporting Files */,
 			);
-			name = IPDashedLine;
+			name = Example;
 			sourceTree = "<group>";
 		};
 		49F32A2E193913B6007B882F /* Supporting Files */ = {
@@ -154,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4983FDE81958AA4A00247750 /* Images.xcassets in Resources */,
+				4900EAD6195DF35F00D93D1A /* IPViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4900EAD4195DF21E00D93D1A /* IPDashedBorderedView.m in Sources */,
 				49F32A34193913B6007B882F /* main.m in Sources */,
 				49F32A61193913CE007B882F /* IPDashedLineView.m in Sources */,
 				49F32A38193913B6007B882F /* IPAppDelegate.m in Sources */,
